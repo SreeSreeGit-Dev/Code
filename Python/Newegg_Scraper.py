@@ -34,7 +34,10 @@ options.add_argument("--disable-dev-shm-usage")
 # options.add_argument("--headless")
 
 # Launch browser
-driver = uc.Chrome(options=options)
+driver = uc.Chrome(options=options, 
+# Setup a test chrome driver 
+# driver_executable_path="/Users/sreevastavsreenivasan/Downloads/chromedriver-mac-arm64/chromedriver"
+)
 
 
 # T
